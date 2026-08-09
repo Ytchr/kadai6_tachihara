@@ -422,6 +422,7 @@ footer dt{
         vertical-align: middle;
     }
 }
-html.remodal-is-locked{
-    overflow: visible;
+.remodal-wrapper{
+    overscroll-behavior: contain;
 }
+
