@@ -67,13 +67,6 @@
     $(document).on("opened", ".remodal", function(){
         $(this).trigger("blur");
     });
-        $(document).on("opening", ".remodal", function(){
-        var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-        $(".page-top").css("right", 30 + scrollbarWidth + "px");
-    });
-    $(document).on("closed", ".remodal", function(){
-        $(".page-top").css("right", "30px");
-    });
 });
 </script>
 

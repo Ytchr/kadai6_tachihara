@@ -210,6 +210,7 @@ footer dt{
     bottom: 40px;
     right: 30px;
 }
+
 .hamburger,
 .header_nav-sp{
     display: none;
@@ -424,5 +425,11 @@ footer dt{
 }
 .remodal-wrapper{
     overscroll-behavior: contain;
+}
+html.remodal-is-locked{
+    overflow: visible;
+}
+body{
+    padding-right: 0 !important;
 }
 
