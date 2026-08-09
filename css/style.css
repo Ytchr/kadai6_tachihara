@@ -415,7 +415,11 @@ footer dt{
 }
 @media screen and (max-width: 768px){
     .remodal{
-        max-width: 70vw;
+        max-width: 90vw;
+        margin-top: 0;
+    }
+    .remodal-wrapper:after{
+        vertical-align: middle;
     }
 }
 

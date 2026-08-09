@@ -26,6 +26,11 @@
         $(".header_nav-sp").fadeToggle();
     });
 
+    $(".header_nav-sp a").on("click",function(){
+        $(".hamburger").removeClass("open");
+        $(".header_nav-sp").fadeOut();
+    });
+
     $(".main-visual").slick({
         arrows: false,
         autoplay: true,
