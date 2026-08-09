@@ -57,6 +57,14 @@
     $("[data-remodal-id]").remodal({
     hashTracking: false
     });
+        var savedScrollPosition = 0;
+    $(document).on("closing", ".remodal", function(){
+        savedScrollPosition = $(window).scrollTop();
+    });
+    $(document).on("closed", ".remodal", function(){
+        $(window).scrollTop(savedScrollPosition);
+    });
+
 });
 </script>
 
