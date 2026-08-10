@@ -138,6 +138,15 @@ body{
 .gallery-images img{
     width: 100%;
 }
+.gallery-images button{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
 #event h2{
     margin-bottom: 32px;
 }
@@ -318,13 +327,19 @@ footer dt{
     .logo{
     width: 244px;
     }
+    .section-heading{
+    font-size: 32px;
+    }
+    #aboutus .section-heading {
+    text-align: center;
+    }
     #aboutus,
-#menu,
-#gallery,
-#event,
-#access{
+    #menu,
+    #gallery,
+    #event,
+    #access{
     padding-top: 80px;
-}
+    }
     #aboutus{
         flex-direction: column;
     }
